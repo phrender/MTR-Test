@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/Android/MTR-Test/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Workspace/Android/MTR-Test/app/src/main/res/layout/activity_station_screen.xml" value="0.5541666666666667" />
+        <entry key="..\:/Workspace/Android/MTR-Test/app/src/main/res/layout/station_departure_row.xml" value="0.39266304347826086" />
+        <entry key="..\:/Workspace/Android/app/src/main/res/layout/content_main.xml" value="0.3307291666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/station_departure_row_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/large"
+        android:paddingBottom="@dimen/large">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/station_departure_row_departure_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/large"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="Departure Time"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/station_departure_row_departure_destination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/station_departure_row_departure_time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="Destination"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/station_departure_row_departure_track"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="Track No"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
